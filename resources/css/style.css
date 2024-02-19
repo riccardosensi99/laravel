@@ -1,0 +1,79 @@
+body{
+    background-color: #1d272c;
+
+}
+
+h1{
+    color: red;
+}
+
+.card-custom{
+    
+    border: 4px solid red;
+    margin-top: 50px;
+    box-shadow: rgba(159, 159, 159, 0.25) 0px 54px 55px, rgba(149, 149, 149, 0.12) 0px -12px 30px, rgba(180, 180, 180, 0.12) 0px 4px 6px, rgba(141, 141, 141, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+
+
+.nv-custom{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 3;
+}
+
+.bg-costum{
+    /* margin-top: 50px; */
+    background: url(../img/cyberpunk-2077-2.jpg);
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+.card1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #e4f600;
+    border: 2px solid black;
+    border-radius: 40px;
+    overflow: hidden;
+    margin: 10px;
+    width: 300px;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.card1:hover{
+    box-shadow: rgba(229, 229, 229, 0.3) 0px 19px 38px, rgba(229, 229, 229, 0.22) 0px 15px 12px;
+}
+
+.card1-img{
+    border: 2px solid black;
+    border-radius: 40px;
+    width: 100%;
+    height: 350px; /* Altezza dell'immagine, regola secondo le tue esigenze */
+    /* object-fit: cover; */
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.card1-content{
+    padding: 10px;
+}
+
+@media screen and (max-width: 1400px) {
+    .bg-costum {
+      background-color: #1d272c;
+     background-image: url(../img/cyberpunk-pirate-flag.jpg);
+    }
+  }
+
+
+
+
